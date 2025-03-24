@@ -5,11 +5,11 @@ A low-level library for arbitrary long numeric data types (both integer and frac
 standard math functions for them and maybe even with an extension to the complex field and with support for numeric methods/
 approximate calculations/computation math [planned, concept, no development yet]
 
-// There will be a lot of math...
+// There will be a lot of math involved here...
 
 ## This project is currently just an idea, there won't be anything for several months
 
 // Gotta refresh my higher math (calculus/math analysis, linear algebra, computational math), discrete math (math logic, 
 // algorithm theory), mathematical foundations of computers (aka informatics/computer science), information theory and 
-// computer architecture knowledge before I take on this - remembering all that foundational stuff from the university 
+// computer architecture/science knowledge before I take on this - remembering all that foundational stuff from the university 
 // in short, this is gonna be long...
