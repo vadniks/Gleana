@@ -16,7 +16,12 @@ computer architecture/science knowledge before I take on this - remembering all 
 in short, this is gonna be long...
 */
 
-### Notes/Todos
+### Planned license
+
+Apache 2.0 or LGPL 2.0 or Mit, will decide later but it will definitely be permissive (fair restrictions so it can be used with 
+other proprietary projects)
+
+### Notes/Todos/What the finished result should implement
 
 Represent all numbers as fractions and since the space isn't limited use fixed-point format. Maybe just take the `IEEE 754-2008` 
 standard and scale it when necessary up to user defined maximum as this can be continued til the infinity. Or just sore it as 
@@ -40,8 +45,8 @@ Support NaN (0/0), +-Infinity (\_anyNonZero\_/0)
 Write in C11 and add language C++ wrappers and other languages bindings
 
 Add math functions: round, floor, bottom, pow (power, ^, includes roots), abs, (arc)sin, (arc)cos, (arc)tg/tan, (arc)ctg/ctan, 
-logE/ln, log10/log, exp/e^any, sh/sinh, csh/cosh, th/tanh, cth/ctanh // Either with scaled versions of default algorithms used 
-in C's standard math library or using approximations (Taylor/Maclaurin series)
+logE/ln, log10/lg, logAnyBiggerThenZeroAndNotOne, exp/e^any, sh/sinh, csh/cosh, th/tanh, cth/ctanh // Either with scaled versions 
+of default algorithms used in C's standard math library or using approximations (Taylor/Maclaurin series)
 
 Define constants inducing the transient ones (PI, E), as they are infinitely long they would need some precision setting
 
