@@ -66,3 +66,5 @@ Matrices and vectors and their algebraic operations support
 
 Algebraic expressions evaluator/processor aka calculator (the one that uses the inverse polish notation), 
 like: \_future_type\_ result = eval("a + b + c^(lnb - {sin(shd))}", a, b, c, d);
+
+gpu/parallel computing: openCl, openMp, cuda, sdl3/opengl with compute shaders
