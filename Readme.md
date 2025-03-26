@@ -24,8 +24,8 @@ other proprietary projects)
 ### Notes/Todos/What the finished result should implement
 
 Represent all numbers as fractions and since the space isn't limited use fixed-point format. Maybe just take the `IEEE 754-2008` 
-standard and scale it when necessary up to user defined maximum as this can be continued til the infinity. Or just sore it as 
-struct \_type\_ {byte integerPart[], fractionPart[];} and implement basic operations via algorithms as the ALU does with the 
+standard and scale it when necessary up to user defined maximum as this can be continued infinitely. Or just store it as 
+struct \_future_type\_ {byte integerPart[], fractionPart[];} and implement basic operations via algorithms as the ALU does with the 
 traditional types
 
 Add all arithmetic operations: +, -, *, /, //, %, \[any\]/integerPart, {any}/fractionPart
