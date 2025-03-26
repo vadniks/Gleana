@@ -48,7 +48,7 @@ Add math functions: round, floor, bottom, pow (power, ^, includes roots), abs, (
 logE/ln, log10/lg, logAnyBiggerThenZeroAndNotOne, exp/e^any, sh/sinh, csh/cosh, th/tanh, cth/ctanh // Either with scaled versions 
 of default algorithms used in C's standard math library or using approximations (Taylor/Maclaurin series)
 
-Define constants inducing the transient ones (PI, E), as they are infinitely long they would need some precision setting
+Define constants including the transcendental ones (PI, E), as they are infinitely long they would need some precision setting
 
 Add output and conversion functions: toString, to(U)Byte/Short/Int/Long (to use when the bits count are equal or when the arbitrary 
 long number's type has insignificantly more bits than the traditional maximum sizeof(long))
