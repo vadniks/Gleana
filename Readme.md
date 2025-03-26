@@ -57,9 +57,12 @@ Add (de)encoding functions: to(from)Hex, to(from)Base64(32)
 
 // optionally, what's the point of these numbers if they cannot be used anywhere else? - implement the applications!
 
+Support for complex numbers (those which have real and imaginary parts and are the result of (-anyPositive)^(1/(2n)) 
+(n is any integer 1,2,3...) and their algebra
+
 Numeric methods: numeric differentiation/integration, etc
 
-Matrices and vectors and their algebra operations support
+Matrices and vectors and their algebraic operations support
 
 Algebraic expressions evaluator/processor aka calculator (the one that uses the inverse polish notation), 
 like: \_future_type\_ result = eval("a + b + c^(lnb - {sin(shd))}", a, b, c, d);
