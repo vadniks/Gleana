@@ -44,9 +44,10 @@ Support NaN (0/0), +-Infinity (\_anyNonZero\_/0)
 
 Write in C11 and add language C++ wrappers and other languages bindings
 
-Add math functions: round, floor, bottom, pow (power, ^, includes roots), abs, (arc)sin, (arc)cos, (arc)tg/tan, (arc)ctg/ctan, 
-logE/ln, log10/lg, logAnyBiggerThenZeroAndNotOne, exp/e^any, sh/sinh, csh/cosh, th/tanh, cth/ctanh // Either with scaled versions 
-of default algorithms used in C's standard math library or using approximations (Taylor/Maclaurin series)
+Add math functions: round, floor, ceil, pow (power, ^, includes roots), abs (module), (arc/a)sin, (arc)cos, (arc)tg/tan, (arc)ctg/ctan, 
+logE/ln, log10/lg, logAnyBiggerThenZeroAndNonOne, exp/e^any, expAnyBiggerThanZeroAndNonOne(any)/...^any, (arc/a)sh/sinh (hyperbolic sine), 
+(arc)csh/cosh, (arc)th/tanh, (arc)cth/ctanh // Either with scaled versions of default algorithms used in C's standard math library or using 
+approximations (Taylor/Maclaurin series)
 
 Define constants including the transcendental ones (PI, E), as they are infinitely long they would need some precision setting
 
