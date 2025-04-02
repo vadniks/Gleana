@@ -56,6 +56,9 @@ long number's type has insignificantly more bits than the traditional maximum si
 
 Add (de)encoding functions: to(from)Hex, to(from)Base64(32)
 
+PRECISION!!! (solve or at least mitigate that pesky 0.1 + 0.2 = 0.30000000000000004 and not exactly 0.3 problem caused by floating 
+point binary representation and dec2bin/bin2dec conversions)
+
 // optionally, what's the point of these numbers if they cannot be used anywhere else? - implement the applications!
 
 Support for complex numbers (those which have real and imaginary parts and are the result of (-anyPositive)^(1/(2n)) 
@@ -69,3 +72,7 @@ Algebraic expressions evaluator/processor aka calculator (the one that uses the 
 like: \_future_type\_ result = eval("a + b + c^(lnb - {sin(shd))}", a, b, c, d);
 
 gpu/parallel computing: openCl, openMp, cuda, sdl3/opengl with compute shaders
+
+cryptography
+
+### `Sounds more like a library for scientific computations`
