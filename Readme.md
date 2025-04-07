@@ -27,6 +27,7 @@ Represent all numbers as fractions and since the space isn't limited use fixed-p
 standard and scale it when necessary up to user defined maximum as this can be continued infinitely. Or just store it as 
 struct \_future_type\_ {byte integerPart[], fractionPart[];} and implement basic operations via algorithms as the ALU does with the 
 traditional types
+Check fixed point arithmetic, extended precision, arbitrary-precision arithmetic
 
 Add all arithmetic operations: +, -, *, /, //, %, \[any\]/integerPart, {any}/fractionPart
 
@@ -57,7 +58,9 @@ long number's type has insignificantly more bits than the traditional maximum si
 Add (de)encoding functions: to(from)Hex, to(from)Base64(32)
 
 PRECISION!!! (solve or at least mitigate that pesky 0.1 + 0.2 = 0.30000000000000004 and not exactly 0.3 problem caused by floating 
-point binary representation and dec2bin/bin2dec conversions)
+point binary representation and dec2bin/bin2dec conversions), roundoff, overflow errors
+
+assembly specific optimizations, avx*/simd (avx2's 256 bit register, sounds interesting)
 
 // optionally, what's the point of these numbers if they cannot be used anywhere else? - implement the applications!
 
