@@ -77,5 +77,9 @@ like: \_future_type\_ result = eval("a + b + c^(lnb - {sin(shd))}", a, b, c, d);
 gpu/parallel computing: openCl, openMp, cuda, sdl3/opengl with compute shaders
 
 cryptography
+steganography
+deniable encryption/plausible deniability - sounds interesting
+honey encryption (produces valid-looking but incorrect plaintexts when decrypted with the wrong key) - definitely worth playing with
+multi-decryptable encryption / multi-key ciphers - I'm certainly diving into cryptography, just a few months later
 
 ### `Sounds more like a library for scientific computations`
